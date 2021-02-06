@@ -121,6 +121,9 @@
                     width: 26px;
                     height: 26px;
                     margin: 0 20px;
+                    &:hover{
+                        box-shadow: #000;
+                    }
 
                 }
             }
