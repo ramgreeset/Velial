@@ -1,0 +1,28 @@
+.masters{
+    font-family: 'Lora', serif;
+    background-color: $background;
+    min-height: 900px;
+    font-weight: bold;
+    text-align: center;
+
+    &__wrapper {
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__profile-card {
+        margin: 3px;
+        
+    }
+    &__photo {
+    }
+    &__name {
+        padding: 20px 0 8px 0;
+        font-size: 30px;
+        color: #fff;
+    }
+    &__function {
+        font-size: 18px;
+        color: $main-color;
+    }
+}
