@@ -54,9 +54,9 @@
              }
 
              &__wrapper{
-                 min-width: 65%;
-                 display: flex;
-                 justify-content: space-between;
+                min-width: 65%;
+                display: flex;
+                justify-content: space-between;
              }
 
         .address {
@@ -134,7 +134,7 @@
                 &:before{
                     content: '';
                     position: absolute;
-                    width: 115px;
+                    width: 111px;
                     height: 1px;
                     background-color: #fff;
                     right: 40px;

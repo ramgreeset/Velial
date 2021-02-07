@@ -5,4 +5,13 @@
     font-size: 18px;
     background-color: $main-color;
     color:#fff;
+    border: none;
+    cursor: pointer;
+    &-price{
+        text-transform: uppercase;
+        width: 227px;
+        height: 55px;
+        border-radius: 30px;
+
+    }
 }
