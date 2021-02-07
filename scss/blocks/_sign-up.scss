@@ -1,0 +1,18 @@
+.sign-up{
+    text-align: center;
+    background-color: $background;
+    min-height: 500px;
+    form{
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url('../images/bg/call-bg.jpg') center center/cover no-repeat ;
+        height: 195px;
+    }
+
+    .input-phone{
+        height: 56px;
+        width: 454px;
+    }
+}

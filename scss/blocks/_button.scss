@@ -7,11 +7,28 @@
     color:#fff;
     border: none;
     cursor: pointer;
-    &-price{
+    &__price{
         text-transform: uppercase;
         width: 227px;
         height: 55px;
         border-radius: 30px;
 
+    }
+    &__form{
+        text-align: left;
+        padding:0 0 0 30px;
+        position: relative;
+        height: 56px;
+        width: 227px;
+        text-transform: uppercase;
+        &:after{
+            content:'';
+            width: 39px;
+            height: 8px;
+            position: absolute;
+            top: 22px;
+            right: 22px;
+            background: url('../images/icons/Arrow.svg');
+        }
     }
 }
