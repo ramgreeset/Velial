@@ -1,10 +1,10 @@
 .header {
     position: relative;
-    min-height: 577px;
+    min-height: 572px;
     background: url('../images/bg/header-bg.jpg') center center / cover no-repeat;
 
-    .logo {
-        margin: 20px 0 10px 0;
+    &__logo {
+        margin: 15px 0 15px 0;
     }
 
 
@@ -13,7 +13,7 @@
         color: #fff;
         font-family: 'Lora', serif;
         text-transform: uppercase;
-        line-height: 90px;
+        line-height: 93px;
         width: 500px;
 
         span {
@@ -31,7 +31,7 @@
     }
 
     &__bottom{
-        margin-top: 44px;
+        margin-top: 34px;
         display: flex;
         align-items: flex-end;
     }
@@ -40,8 +40,8 @@
         color: #fff;
         display: flex;
         justify-content: flex-end;
-        padding-top: 20px;
-        width: 65%;
+        padding-top: 26px;
+        width: 60%;
         height: 118px;
         background-color: $background;
         line-height: 18px;
@@ -54,7 +54,7 @@
              }
 
              &__wrapper{
-                man-width: 65%;
+                min-width: 60%;
                 display: flex;
                 justify-content: space-between;
              }
@@ -106,11 +106,11 @@
     
 
         .beige-block{
-            width: 35%;
+            width: 40%;
             height: 76px;
             background-color:$main-color;
 
-            .social{
+            &__social{
                 padding-left: 40px;
                 display: flex;
                 justify-content: space-between;
@@ -130,7 +130,7 @@
             .subscribe{
                 position: relative;
                 color: #fff;
-                transform: rotate(-90deg) translate(79px , 20px);
+                transform: rotate(-90deg) translate(75px , -3px);
                 &:before{
                     content: '';
                     position: absolute;

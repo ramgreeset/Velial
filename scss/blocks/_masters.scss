@@ -1,7 +1,7 @@
 .masters{
     font-family: 'Lora', serif;
     background-color: $background;
-    min-height: 670px;
+    min-height: 657px;
     font-weight: bold;
     text-align: center;
 
@@ -9,12 +9,18 @@
         padding-top: 40px;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
     &__profile-card {
         margin: 3px;
         
     }
     &__photo {
+        width: 360px;
+        height: 378px;
+        object-fit: cover;
+        object-position: center;
+
     }
     &__name {
         padding: 20px 0 8px 0;
