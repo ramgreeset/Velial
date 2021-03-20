@@ -2,6 +2,10 @@
     position: relative;
     background: url('../images/bg/header-bg.jpg') center center / cover no-repeat;
 
+    .adaptiv__header-number{
+        display: none;
+    }
+
     &__logo {
         margin: 15px 0 15px 0;
     }
@@ -9,7 +13,7 @@
 
     &__title {
         // font-size: 72px;
-        @include adaptiv-font (76, 36);
+        @include adaptiv-font (72, 36);
         color: #fff;
         font-family: 'Lora', serif;
         text-transform: uppercase;
@@ -25,9 +29,9 @@
         @include adaptiv-font (24, 12);
         font-weight: 300;
         width: 370px;
-        min-height: 68px;
+        // min-height: 68px;
         color: #fff;
-        margin-bottom: 10px;
+        margin-bottom: 26px;
     }
 
     &__bottom{
@@ -42,13 +46,17 @@
         justify-content: flex-end;
         padding-top: 26px;
         width: 60%;
-        height: 118px;
+        min-height: 118px;
         background-color: $background;
         line-height: 18px;
         font-size: 13px;
         font-weight: 600;
-        color: #fff;
-            span {
+        color: #635B4C;;
+
+        .adaptiv{
+            display: none;
+        }
+            .mark {
                 color: $accent;
                 font-weight: 500;
              }
@@ -63,7 +71,6 @@
                 margin-right: 60px;
                 font-style: normal;
                 width: 195px;
-                height: 65px;
                 position: relative;
                 &:before {
                     content:'';
@@ -121,8 +128,11 @@
                     width: 26px;
                     height: 26px;
                     margin: 0 20px;
+                    transition: all 0.3s;
+
                     &:hover{
-                        box-shadow: #000;
+                        transform: scale(1.1);
+                        transition: all 0.3s;
                     }
 
                 }

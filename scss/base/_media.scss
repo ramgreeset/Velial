@@ -70,10 +70,15 @@
 }
 @media(max-width: 1138px) {
     .header {
+
+        &__title{
+            line-height: 70px;
+        }
+
         .brown-block{
             width: 100%;
             padding-top: 10px;
-            height: 94px;
+            min-height: 94px;
 
             &__wrapper{
                 min-width: 100%;
@@ -100,9 +105,91 @@
     
 }
 
-@media(max-width: 992px) {
+@media(max-width: 998px) {
 }
 
 @media(max-width: 767px) {
+    .header{
+        &__logo{
+            width: 50px;
+        }
+        &__wrapper{
+            // text-align: center;
+        }
+        &__title{
+            width: 100%;
+        }
+        &__descr{
+            width: 100%
+        }
 
+        .brown-block{
+            &__wrapper{
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+            .adaptiv{
+             display: block;
+             margin-bottom: 5px;
+             font-size: 15px;
+             font-weight: 600;
+             color: $main-color;
+            }
+
+            .address{
+                margin-right: 0;
+                &::before{
+                    display: none;
+                }
+            }
+            .call{
+                margin-right: 0;
+                &::before{
+                    display: none;
+                }
+            }
+            .open{
+                &::before{
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
+
+@media(max-width: 598px){
+    .header{
+        min-height: 300px;
+        position: relative;
+
+        .adaptiv__header-number{
+            display: block;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            color: $accent;
+            &:before {
+                content:'';
+                background: url('../../images/icons/phone.svg')center center / cover no-repeat;
+                position: absolute;
+                top: -2px;
+                left: -30px;
+                width: 26px;
+                height: 26px;
+            }
+        }
+        .brown-block{
+            display: none;
+        }
+    }
+
+}
+
+@media(max-width: 441px){
+    .header{
+        &__title{
+            line-height: 43px;
+        }
+    }
 }
