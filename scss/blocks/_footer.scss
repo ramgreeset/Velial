@@ -30,7 +30,7 @@
     &__title {
         font-weight: 600;
         font-family: 'Lora', serif;
-        font-size: 24px;
+        @include adaptiv-font (24,16);
         color: $main-color;
         margin-bottom: 5px;
     }

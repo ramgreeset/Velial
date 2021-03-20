@@ -7,7 +7,7 @@
     &:before{
         content:'';
         position: absolute;
-        background-image: url('../images/icons/razor.svg');
+        background: url('../images/icons/razor.svg')center center / cover no-repeat;
         height: 63px;
         width: 63px;
         top: 10px;
@@ -16,7 +16,7 @@
     &:after{
         content:'';
         position: absolute;
-        background-image: url('../images/icons/razor.svg');
+        background: url('../images/icons/razor.svg')center center / cover no-repeat;
         height: 63px;
         width: 63px;
         top: 10px;

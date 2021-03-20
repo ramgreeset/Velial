@@ -2,7 +2,7 @@
     width: 185px;
     height: 51px;
     font-family: 'Lora', serif;
-    font-size: 18px;
+    @include adaptiv-font (18,14);
     background-color: $main-color;
     color:#fff;
     border: none;
@@ -27,6 +27,7 @@
         height: 56px;
         width: 227px;
         text-transform: uppercase;
+        margin-right: 20px;
         &:after{
             content:'';
             width: 39px;
