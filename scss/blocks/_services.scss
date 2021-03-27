@@ -20,6 +20,7 @@
         text-align-last: left;
         font-family: 'Lora', serif;
         font-weight: bold;
+        // font-size: 36px;
         @include adaptiv-font (36, 18);
         color: #fff;
     }
@@ -34,11 +35,12 @@
         align-items: center;
         justify-content: space-between;
         margin-bottom: 12px;
-        width: 366px;
+        width: 390px;
         height: 36px;
         border-bottom: 1px solid $main-color;
         font-family: 'Montserrat', sans-serif;
         font-weight: normal;
+        // font-size: 24px;
         @include adaptiv-font (24, 17);
     }
 }

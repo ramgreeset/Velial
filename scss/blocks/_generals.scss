@@ -1,6 +1,7 @@
   .title{
     display: inline-block;
     font-family: 'Lora', serif;
+    // font-size: 64px;
     @include adaptiv-font (64, 32);
     color: $main-color;
     position: relative;

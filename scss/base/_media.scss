@@ -145,7 +145,7 @@
                 justify-content: space-around;
                 flex-wrap: wrap;
             }
-            .adaptiv{
+            &__adaptiv-name{
              display: block;
              margin-bottom: 5px;
              font-size: 15px;
@@ -212,7 +212,7 @@
         min-height: 300px;
         position: relative;
 
-        .adaptiv__header-number{
+        &__adaptiv-number{
             display: block;
             position: absolute;
             top: 10px;
