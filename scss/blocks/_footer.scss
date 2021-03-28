@@ -6,7 +6,6 @@
         padding: 22px 60px;
         position: absolute;
         top: 50px;
-        height: 389px;
         width: 360px;
         background-color: $background;
 
@@ -15,12 +14,17 @@
         }
     }
 
+    &__social{
+        height: 36px;
+    }
+
     &__social-link{
         fill: $main-color;
         margin: 0 20px;
 
         svg{
             width: 36px;
+            height: 36px;
         }
         &:first-child{
             margin-left: 0;
@@ -30,13 +34,13 @@
     &__title {
         font-weight: 600;
         font-family: 'Lora', serif;
-        font-size: 24px;
-        // @include adaptiv-font (24,16);
+        @include adaptiv-font (24,16);
         color: $main-color;
         margin-bottom: 5px;
     }
     &__address {
         font-style: normal;
+        min-width: 50px;
     }
     &__call {
     }

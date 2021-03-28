@@ -199,12 +199,12 @@
         &:before{
             height: 30px;
             width: 30px;
-            left: -40px;
+            left: -33px;
         }
         &:after{
             height: 30px;
             width: 30px;
-            right: -40px;
+            right: -33px;
         }
     
     }
@@ -260,7 +260,7 @@
             flex-wrap: wrap;
             left: 0;
             &-card{
-                margin-bottom: 1px;
+                margin-bottom: 5px;
                 margin-left: 25px;
                 height: 50px;
             }
@@ -276,6 +276,21 @@
     .header{
         &__title{
             line-height: 43px;
+        }
+    }
+    .masters__photo {
+        width: 240px;
+        height: 240px;
+    }
+    .button{
+
+        &__form{
+            padding:3px;
+        }
+    }
+    .sign-up{
+        .input-phone {
+            width: 200px;
         }
     }
 }
